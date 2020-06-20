@@ -1,0 +1,103 @@
+.container {
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#logo {
+  height: 300px;
+  width: 100%
+  
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 1329px;
+  height: 40px;
+  background: white;
+  padding: 0px 5px 0px 0px;
+  border-bottom: 2px solid ;
+}
+
+ol.lista {
+    list-style-type: none;
+ }
+
+  .ul {
+   list-style-type: none;
+   width: 1329px;
+    height: 40px;
+   padding: 0px 5px 0px 0px;
+   overflow: hidden;
+   background: #603813;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  #li {
+    float: left;
+  }
+  
+  #li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+.tituloCancion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+    text-align: center;
+    color: #795548;
+
+}
+
+ 
+.contenidoCancion{
+  height: 150px;
+  width: 350px;
+  background-color: #D7CCC8 ;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+
+h3 {
+  color: #603813;
+  font-style: oblique;
+  text-align: center;
+ 
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  color: #603813;
+  font-size: xx-large;
+
+}
+
+
+p,a,li {
+  text-align: center;
+  font-style: italic;
+  color: #603813;
+  font-size: small;
+
+}
+
+.boton {
+ background-color: #603813;
+}
+
+
+
+

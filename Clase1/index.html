@@ -1,0 +1,40 @@
+<html>
+<head>
+     <title>Mi primera clase con Acamica</title>
+     <style>
+        body {background-color: darkgray;}
+        h1{color: mediumorchid;}
+        h6{padding-left: 20px;}
+        p{background-color: mediumvioletred; color: moccasin;}
+        
+     </style>
+</head>
+<body>
+    <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" allow="encrypted-media"></iframe>
+
+    <iframe src="https://open.spotify.com/embed/track/6lSxM9BKcEZBSDKl2VODsF?si=Yxi96ys9SsWZ3qxJJXMIyw" width="300" height="380" allow="encrypted-media"></iframe>
+    
+    
+    <link rel="stylesheet" href="https://www.thebeatles.com/">
+    <h1 id="nombre"> Jenny Moreno Vallejo</h1>
+    <h6 id="fecha_nacimiento"> 8 de Enero 1994</h6>
+    <p id="descripcion">"Me llamo Jenny Moreno Vallejo Tengo 26 años y vivo en la ciudad de Bogotá (Colombia)"</p>
+     <script>
+        nombre = document.getElementById('nombre');
+        nombre.addEventListener("click",function(){
+            alert("Bienvenido a mi sitio web")
+        });
+
+        descripcion = document.getElementById('descripcion');
+        descripcion.addEventListener("mouseenter",function(){
+            descripcion.style.color = "black";
+            descripcion.style.backgroundColor = "white";
+        });
+
+        descripcion.addEventListener("mouseout",function(){
+            descripcion.style.color = "white";
+            descripcion.style.backgroundColor = "black";
+        });
+     </script>
+</body>
+</html>

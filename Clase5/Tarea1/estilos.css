@@ -1,0 +1,39 @@
+.container {
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    overflow: hidden;
+    background-color: violet;
+}
+.cuadro1 {
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    float: left;
+    
+}
+
+.cuadro2 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    float: right;
+}
+
+.cuadro3 {
+    height: 300px;
+    width: 300px ;
+    margin-top: 485px;
+    margin-left: 332px;
+    background-color: plum; 
+    position: absolute
+}
+
+.cuadro4 {
+    height: 300px;
+    width: 300px;
+    background-color: paleturquoise;
+    margin-top: 650px;
+    margin-left: 650px;
+}
+

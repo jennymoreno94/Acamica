@@ -1,0 +1,40 @@
+@import 'variable';
+@import 'button';
+
+#container {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#h1 {
+    text-align: center;
+    font-style: italic;
+    color: $colorOscuro;
+    font-size: xx-large;
+}
+
+
+#label {
+    font-size: medium;
+    text-align: justify;
+    color:$colorOscuro;
+    font-style: oblique;
+}
+
+input[type=text],[type=email],[type=tel], select {
+    align-content: inherit;
+    width: 30%;
+    padding: 12px 20px;
+    border: 1px solid $ColorInput;
+}
+
+
+
+ 
+  
+  
+ 
+  
+  
+  

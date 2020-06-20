@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <title>Formulario de Registro Acamica</title>
+         <img src="translator1.jpg "  >
+         <h2>1 de mayo de 2020 | Tecnología | Lars Nystuen</h2>
+    </head>
+    <body>
+        <header>
+            <h1 class="h1">Un ingenioso invento japonés que te permite hablar inmediatamente en más de 40 idiomas</h1>
+           
+        </header>
+        <main>
+            <h3>¿Alguna vez has deseado hablar algún idioma extranjero sin dar clases? ¿Has tenido problemas cuando has viajado al extranjero por la barrera del idioma? ¿Has soñado con ser capaz de hablar con casi cualquier persona del mundo?</h3>
+             <p> Seamos francos, aprender idiomas extranjeros es una pérdida de tiempo y dinero.   </p>
+             <p>Te pasas años haciendo costosos cursos de idiomas y el resultado nunca es el satisfactorio. Los hablantes nativos siempre estarán imitando tu acento, tu forma de expresarte y te pondrán motes.</p>
+             <p> ¿No crees que la barrera del idioma es uno de los retos más grandes de viajar al extranjero? ¿Cuándo fue la última vez que te sentiste con confianza a la hora de preguntar por direcciones cuando estabas fuera? ¿Y qué me dices que ir de compras o pedir un taxi? ¡No te preocupes! ¡Todos sabemos lo que se siente! Los estudios demuestran que la vergüenza del idioma hace que la mayoría de la gente evite no solo viajar por el mundo, sino también llevar a cabo una carrera profesional internacional.</p>
+             <p> ¿Pero como es posible que, políticos y hombres de negocios famosos se manejen muy bien hablando solo 1 idioma? La verdad es que antes contratan a un intérprete que andar perdiendo su preciado tiempo y dinero en aprender idiomas.</p>  
+             <p> ¿Por qué no puedes hacer tú lo mismo, tener tu propio traductor? ¡No, no a tu lado, sino en tu bolsillo! ¡Y no necesitarás gastarte todos tus ahorros!</p>
+
+
+            <form action="https://www.htmlquick.com/es/form-result.php" target="_blank">
+                <section>
+                    <h2>Información Personal </h2>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input  type="text" name="nombre"  id="nombre" placeholder="Nombre Persona" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input  type="text" name="apellido"  id="apellido" placeholder="Apellido Persona" required >
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email</label>
+                        <input  type="email" name="email"  id="email" placeholder="jenny.moreno@gmail.com" required >
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pais">Pais</label>
+                        <select name="pais" id="pais" required>
+                          <option value="">Seleccione un País</option>
+                          <option value="brasil">Brasil</option>
+                          <option value="argentina">Argentina</option>
+                          <option value="colombia" >Colombia</option>
+                          <option value="venezuela">Venezuela</option>
+                          <option value="ecuador" >Ecuador</option>
+                          <option value="bolivia" >Bolivia</option>
+                          <option value="paraguay" >Paraguay</option>
+                          <option value="uruguay" >Uruguay</option>
+                          <option value="chile" >Chile</option>
+                          <option value="peru" >Peru</option>
+                        </select>
+                    </div>
+                   
+                </section>
+                <section>
+                     <!--Información Acamica-->
+                    <h2>Información Acamica</h2>
+        
+                    <div>
+                        <label for="carrera">A qué carrera deseas inscribirte?</label>
+                        <select name="carrera" id="carrera" required>
+                          <option value="">Seleccione una Carrera</option>
+                          <option>UX/UI</option>
+                          <option>Data Sciencie</option>
+                          <option>Desarrollo Web Full Stack</option>
+                          <option>FrontEnd Avanzado</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <p>¿A qué carrera deseas inscribirte?</p>
+                        <label for="expPre">Presencial</label>
+                        <input type="radio" name="mod" id="expPre" value="pre" required>
+                        <label for="expOnl">Online</label>
+                        <input type="radio" name="mod" id="expOnl" value="onl" required>
+                    </div>
+                    <div>
+                        <label for="trab">¿Estas trabajando Actualmente?</label>
+                        <input type="checkbox" name="trab" id="trab" required> 
+                    </div>
+                    <br>
+                </section>
+
+                <section>
+                    <h2>Información Adicional </h2>
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="1235469" maxlength="10" required>
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name ="personal" id="personal" cols="30" rows="5" placeholder="Descripción Personal" required ></textarea>
+                    </div>
+                </section>
+
+                <input type="submit" value="Registrarse">
+                <input type="reset" name="reset" id="reset" value="Borrar">
+            </form>
+        </main>   
+    </body>
+</html>

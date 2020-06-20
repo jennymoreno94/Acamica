@@ -1,0 +1,13 @@
+.rotar {
+    transition: transform 1s ease-out;
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    transform-origin: top left;
+
+   }
+
+.rotar:hover {
+    transform: rotate(360deg);
+    background-color: violet;
+}

@@ -1,0 +1,72 @@
+img {
+    border-color: rosybrown;
+    border-style: solid;
+    height: 150px;
+    width: 480px;
+    text-align: center;
+    display:block;
+    margin:auto
+}
+
+h1 {
+   text-align: center;
+   font-style: italic;
+   color: blueviolet;
+   font-size: xx-large;
+
+}
+h3 {
+    color: violet;
+    font-style: oblique;
+}
+h2 {
+    color: violet;
+    font-style: oblique;
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+    color: slateblue;
+}
+
+* {
+    background-color: whitesmoke;
+  }
+
+  input[type=text],[type=email],[type=tel], select {
+    width: 80%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+
+  }
+
+  
+label {
+    font-size: medium;
+    text-align: justify;
+    color: slateblue;
+    font-style: oblique;
+}
+
+h3 {
+    color: violet;
+    font-style: oblique;
+}
+  
+.cuadro1 {
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    float: left;
+    
+}
+
+.cuadro2 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    float: right;
+}

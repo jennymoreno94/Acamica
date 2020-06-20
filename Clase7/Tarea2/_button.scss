@@ -1,0 +1,25 @@
+.button {
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: $colorClaro;
+    border: none;
+    border-radius: 10px;   
+     
+}
+.checked:active  { 
+    background-color:$colorOscuro;
+    color :$colorClaro; 
+    border:$colorClaro;
+
+}
+
+.button:active + #container   { 
+    background-color:$colorOscuro;
+    background: $colorOscuro; 
+    color:$colorClaro;
+}
+

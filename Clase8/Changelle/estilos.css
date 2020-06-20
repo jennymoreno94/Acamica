@@ -1,0 +1,32 @@
+.container {
+    height: 900px;
+    width: 900px;
+    overflow: hidden;
+    background-color: violet;
+}
+.cuadro1 {
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+    float: left;
+    
+}
+
+.cuadro2 {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    float: right;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .cuadro2{
+        height: 400px;
+        width: 400px;
+        margin-top: 400px;
+        background-color: plum; 
+        position: absolute;   
+    }
+}
