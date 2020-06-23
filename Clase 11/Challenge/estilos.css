@@ -1,0 +1,141 @@
+.container {
+   background-color:gray;
+   display: flex;
+   height: 210px;
+   justify-content: space-between;
+   
+   }
+   
+   
+   .box1 {
+      width: 100px;
+      height: 100px;
+      font-size: xx-large;
+      text-align: center;
+      font-family: cursive;
+      color: white;
+      background-color: hotpink;
+      align-self: flex-start;
+      flex-grow: 1;
+      border: white 1px solid;
+      margin: 2px;
+      justify-content:space-between;
+      order: 0;
+   }
+   
+   .box2 {
+      width: 100px;
+     height: 100px;
+      font-size: xx-large;
+      text-align: center;
+      font-family: cursive;
+      color: white;
+      background-color:plum;
+      border: white 1px solid;
+      margin: 2px;
+      align-self: flex-start;
+      justify-content:space-between;
+      order: 1;
+   }
+   
+    .box3 {
+      width: 100px;
+      height: 100px;
+      font-size: xx-large;
+      text-align: center;
+      font-family: cursive;
+      color: white;
+      background-color: palevioletred;
+      border: white 1px solid;
+      margin: 2px;
+      align-self: flex-end;
+      flex-grow: 2;
+      order: 2;
+    }
+   
+    .box4 {
+      width: 100px;
+      height: 100px;
+      font-size: xx-large;
+      text-align: center;
+      font-family: cursive;
+      color: white;
+      border: white 1px solid;
+      margin: 2px;
+      background-color: purple;
+      align-self: flex-start;
+      flex-grow: 1;
+      order: 3;
+    }
+
+    @media (max-width: 600px) {
+
+      .container {
+          height: 900px;
+          width: 900px;
+          background-color: gray;
+          flex-direction: column;
+      }
+
+      .box1 {
+         width: 100px;
+         height: 100px;
+         font-size: xx-large;
+         text-align: center;
+         font-family: cursive;
+         color: white;
+         background-color: hotpink;
+         align-self: flex-start;
+         flex-grow: 1;
+         border: white 1px solid;
+         margin: 2px;
+         justify-content:space-between;
+         order: 0;
+      }
+
+      .box2 {
+         width: 100px;
+        height: 100px;
+         font-size: xx-large;
+         text-align: center;
+         font-family: cursive;
+         color: white;
+         background-color:plum;
+         border: white 1px solid;
+         margin: 2px;
+         align-self: flex-start;
+         justify-content:space-between;
+         order: 1;
+      }
+
+      .box3 {
+         width: 100px;
+         height: 100px;
+         font-size: xx-large;
+         text-align: center;
+         font-family: cursive;
+         color: white;
+         background-color: palevioletred;
+         border: white 1px solid;
+         margin: 2px;
+         align-self: flex-start;
+         flex-direction: column;
+         order: 0;
+       }
+      
+       .box4 {
+         width: 100px;
+         height: 100px;
+         font-size: xx-large;
+         text-align: center;
+         font-family: cursive;
+         color: white;
+         border: white 1px solid;
+         margin: 2px;
+         background-color: purple;
+         align-self: flex-start;
+         flex-grow: 1;
+         order: 3;
+       }
+      
+   }
